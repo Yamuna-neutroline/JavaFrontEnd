@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Cheat sheet</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- to make responsive website-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Welcome</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <!-- Carousal-->
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/img2.jpg" alt="David's fall">
+          </div>
+          <div class="carousel-item">
+            <img src="images/img3.jpg" alt="Old Bazar">
+          </div>
+          <div class="carousel-item">
+            <img src="images/img5.jpg" alt="Sarangkot">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+    </header>
+    
+    <section>
+      <div class="container-fluid">
+        <h1 class="text-center text-capitalize pt-5"> About Us</h1>
+        <hr class="w-25 mx-auto pt-3">
+      </div>
+        <div class="row mb-4">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="images/img1.jpg" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <h1>Who am I?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis efficitur leo, id dapibus est bibendum ac. Curabitur consectetur iaculis enim accumsan finibus. In ullamcorper nulla vitae nulla mollis, quis cursus nibh auctor. Donec ac auctor magna. Aliquam laoreet ligula suscipit orci placerat viverra. Integer placerat eros feugiat porttitor bibendum. Morbi gravida, est sit amet pretium varius, nisi dui imperdiet sapien, eu commodo eros purus pulvinar enim. Nullam eget sem magna. Aenean laoreet purus ut congue feugiat. Etiam porta libero et ante condimentum suscipit. Vestibulum a quam nisl. Sed finibus vel arcu non imperdiet. Donec interdum tristique nibh ultricies malesuada. Phasellus a tincidunt quam. Mauris quis ex neque. 
+            Sed elementum nisl suscipit dui bibendum, sit amet hendrerit arcu bibendum.</p>
+            <button class="btn bg-primary text-white"> Wanna know me?</button>
+          </div>
+      </div>
+      </section>
+
+      <section>
+        <div class="container-fluid">
+          <h1 class="text-center text-capitalize pt-5"> Services</h1>
+          <hr class="w-25 mx-auto pt-3">
+    
+          <div class="row text-center mb-5">
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" style="width:400px">
+                  <img class="card-img-top" src="images/service1.jpg" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title">Paragliding</h4>
+                    
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" style="width:400px">
+                  <img class="card-img-top" src="images/service2.jpg" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title">Bunjee Jumping</h4>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" style="width:400px">
+                  <img class="card-img-top" src="images/service3.1.jpg" alt="Card image">
+                  <div class="card-body">
+                    <h4 class="card-title">Boating</h4>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+      </section>
+      <!--services section ended-->
+      
+      <!--contact section starts-->
+      <section>
+        -<article class="container-fluid text-center bg-primary text-white pt-4 pb-4">
+          <h1>+977 9874223338</h1>
+          <p>If you want best service now, call us now.</p>
+          <button class="btn-warning"> Contact Now</button>
+        </div>
+      </section>
+      
+
+
+      <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ </body>
+</html>
